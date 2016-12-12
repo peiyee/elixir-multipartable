@@ -78,9 +78,7 @@ defmodule MultipartableTest do
     file_headers = %{
       "Content-Transfer-Encoding" => "binary",
       "Content-Disposition" => "form-data",
-      "Content-Type"=>"text/html",
-      name: "file_upload",
-      filename: "text.txt"
+      "Content-Type"=>"text/html"
     }
     file_opts = %{name: "file_upload", filename: "text.txt"}
 
